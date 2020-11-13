@@ -1,0 +1,126 @@
+html {
+  height: 100%;
+  display: block;
+}
+body {
+  background-color: #333300;
+  height: 100%;
+}
+.topnav {
+  font-family: Gothic;
+  font-size: 27px;
+  background-color: #330019;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+#welcome-section {
+ height: 100%;
+}
+h1 {
+  font-family: Gothic;
+  font-size: 55px;
+  color: #331900;
+  /*background-color: #994C00;*/
+  padding: 75px 5px 5px 2px;
+  height: 100%;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  font-size: 50px;
+  color: #330000;
+}
+.summary {
+  font-family: sans-serif;
+  font-size: 45px;
+  color: #202020;
+  padding: 25px 5px 0px 5px
+}
+.container-fluid {
+  display: flex;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-end;
+  height: 100%;
+  text-align: center;
+}
+.Image-of-Me {
+  max-width: 100%;
+  height: auto;
+  width: 75%;
+  border-radius: 15%;
+  border: 10px solid #003333;
+  padding: 7px 5px 7px 5px;
+}
+.flex-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /*padding: 77px;*/
+}
+.button1 {
+  font-family: cursive;
+  font-size: 21px;
+  color: #994C00;
+  background-color: #000000;
+  margin: 10px 5px 10px 5px;
+  border-radius: 37%;
+  width: 50%;
+}
+.button2 {
+  font-family: cursive;
+  font-size: 22px;
+  color: #003333;
+  background-color: #000000;
+  margin: 10px 5px 10px 5px;
+  border-radius: 25%;
+  width: 50%;
+}
+.button3 {
+  font-family: cursive;
+  font-size: 23px;
+  color: #003300;
+  background-color: #000000;
+  margin: 10px 5px 10px 5px;
+  border-radius: 35%;
+  width: 50%;
+}
+.flex-items:hover {
+  text-decoration: underline #990099;
+}
+.button1:hover {
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #FFFFFF;
+}
+.button2:hover {
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #FFFFFF; 
+}
+.button3:hover {
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #FFFFFF;
+  }
+.flex-container {
+  display: flex;
+  height: 100px;
+}
+.projects {
+  font-family: Gothic;
+  font-size: 45px;
+  color: #330019;
+  display: flex;
+  justify-content: center;
+}
+.project-tile {
+  font-family: monospace;
+  font-size: 32px; 
+  padding: 10px 5px 10px 5px;
+}
+img {
+  text-align: right;
+  margin: 10px 15px 15px 15px;
+}
+ @media screen and (max-width: 600px) {
+  font-size: 50px;
+  color: #330000;
+}
